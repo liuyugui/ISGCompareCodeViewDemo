@@ -1,9 +1,12 @@
 # ISGCompareCodeView
 
 
-// 是否限制点击更换验证码
+// 是否限制点击更换验证码 //
+
 @property (nonatomic, assign) BOOL isNoTouch;
-// 验证码
+// 验证码 //
+
+
 @property (nonatomic, strong, readonly) NSString *compareCode;
 
 /**
